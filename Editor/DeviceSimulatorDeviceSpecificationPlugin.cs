@@ -24,8 +24,8 @@ namespace Kogane.Internal
 
             var root = new VisualElement();
 
-            m_resolutionLabel = new Label();
-            m_safeAreaLabel   = new Label();
+            m_resolutionLabel = new();
+            m_safeAreaLabel   = new();
 
             root.Add( m_resolutionLabel );
             root.Add( m_safeAreaLabel );
